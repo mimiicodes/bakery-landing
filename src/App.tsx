@@ -1,10 +1,8 @@
 import { Icon } from '@iconify/react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from 'swiper/modules';
-import "swiper/css";
-import "swiper/css/pagination";
 
-function App() {
+const App: React.FC = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = '#';
